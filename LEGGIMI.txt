@@ -1,0 +1,21 @@
+TORINO IN FAMIGLIA - versione installabile (PWA)
+
+Questa cartella è un sito statico: index.html, manifest, service worker e icone.
+Per installarla sul telefono deve essere pubblicata su un indirizzo https.
+
+Vercel (da computer)
+  1. Entra su vercel.com e crea un nuovo progetto.
+  2. Carica questa cartella (oppure, dal terminale nella cartella: npx vercel --prod).
+  3. Apri l'indirizzo che ti dà Vercel dal telefono.
+
+GitHub Pages (anche dal telefono)
+  1. Crea un repository nuovo su github.com.
+  2. "Add file" > "Upload files": carica tutti i file di questa cartella.
+  3. Settings > Pages > Branch "main" > Save. Dopo un minuto il sito è su
+     https://<tuo-utente>.github.io/<nome-repository>/
+  Attenzione: con l'account gratuito il repository di GitHub Pages è pubblico.
+
+Sul telefono
+  Android (Chrome): menu > "Installa app" (o il pulsante "Installa l'app" nel menu della guida).
+  iPhone (Safari): Condividi > "Aggiungi alla schermata Home".
+  Alla prima apertura serve internet; poi la guida funziona anche senza rete.
